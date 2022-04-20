@@ -1,4 +1,7 @@
-
+---
+title: Bash course for researchers
+permalink: https://nlscelli.github.io/codes/bash_course/1-bash_setup
+---
 
 # Defining your own shell setup
 Every time you start a terminal session, your shell will start anew, reading a set of preferences and configurations that can be highly customised.
