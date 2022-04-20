@@ -1,3 +1,8 @@
+---
+title: Bash course for researchers
+permalink: https://nlscelli.github.io/codes/bash_course/1-bash_basics
+---
+
 # Beginning bash
 Bash is the most direct way to interact with your UNIX-based system. Both Linux and mac are based on unix, while windows is different and only recently allowed to have a unix-style terminal.
 
