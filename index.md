@@ -1,3 +1,5 @@
 # Nicolas Celli - seismologist
-[**about me**](about.md) [**codes**](codes.md)
+[**about me**](about.md)
+
+[**codes**](codes.md)
 
