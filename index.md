@@ -3,5 +3,3 @@
 
 [**codes**](codes.md)
 
-[**bash_course**](bash_course.md)
-
