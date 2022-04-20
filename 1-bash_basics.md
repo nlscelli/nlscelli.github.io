@@ -1,5 +1,5 @@
 ---
-title: Bash course for researchers
+title: Bash basics
 permalink: https://nlscelli.github.io/codes/bash_course/1-bash_basics
 ---
 
