@@ -73,14 +73,14 @@ First let's see where we are. By default, when you turn on your terminal you wil
 
 ```bash
 $my_teminal$: pwd
-/mnt/home_geo/my_user
+home/my_user
 ```
 Now we'll make a new directory (folder) and enter it
 ```bash
 $my_teminal$: mkdir my_directory
 $my_teminal$: cd my_directory
 $my_teminal$: pwd
-/mnt/home_geo/my_user/my_directory
+home/my_user/my_directory
 ```
 Now we are going to create an empty file, list the contents of the directory then remove the new file
 ```bash
@@ -94,7 +94,7 @@ Now we are going to return to our home folder
 ```bash
 $my_teminal$: cd ../
 $my_teminal$: pwd
-/mnt/home_geo/my_user
+home/my_user
 ```
 ## Files, folders, variables
 In any shell, you will encounter three different types of "objects", some of which we just encountered in the example above.
