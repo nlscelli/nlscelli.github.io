@@ -1,6 +1,6 @@
 ---
-title: Bash course for researchers
-permalink: https://nlscelli.github.io/codes/bash_course/1-bash_setup
+title: Bash setup
+permalink: https://nlscelli.github.io/codes/bash_course/3-bash_setup
 ---
 
 # Defining your own shell setup
