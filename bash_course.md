@@ -1,6 +1,4 @@
 ---
-layout: page
-theme: jekyll-theme-minimal
 title: Bash course for researchers
 permalink: https://nlscelli.github.io/codes/bash_course
 ---
