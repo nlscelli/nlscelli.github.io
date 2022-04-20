@@ -1,5 +1,6 @@
 ---
 layout: page
+theme: jekyll-theme-minimal
 title: "about"
 permalink: https://nlscelli.github.io/about
 ---
