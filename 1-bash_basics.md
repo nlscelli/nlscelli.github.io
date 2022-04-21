@@ -1,6 +1,6 @@
 ---
 title: Bash basics
-permalink: https://nlscelli.github.io/codes/bash_course/1-bash_basics
+permalink: https://nlscelli.github.io/codes/1-bash_basics
 ---
 
 # Beginning bash
