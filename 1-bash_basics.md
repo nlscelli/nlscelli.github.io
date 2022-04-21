@@ -171,7 +171,7 @@ $my_teminal$: ls -l testfile.txt
 ```
 With the important line being `-rw-r--r--`, which means(taken from https://linuxcommand.org/lc3_lts0090.php):
 
-<img src="Permissions_explanation.png" alt="explanation" width="400"/>
+<img src="./Permissions_explanation.png" alt="explanation" width="400"/>
 
 \
 Where a simple dash `-` means that is not permitted. As we can see from the example above, a newly generated file can be read by everyone but written (edited) only by the file owner/creator (you).
