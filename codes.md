@@ -19,4 +19,4 @@ A beginner's bash course for researchers. Targeted to teach how to harness the p
 ### Connectivity codes
 A set of codes I developed to ease the accessibility and communication in between computers. They can all be seen [on my github, in the "Utilities" section](https://github.com/nlscelli/Utilities).
 
-The main purpose is to be able to execute command remotely, often over an ssh tunnel to jump a proxy. While different, in [this page](connectivity_example.md) I break down one of the codes to explain the core components of this kind of BASH programming.
+The main purpose is to be able to execute command remotely, often over an ssh tunnel to jump a proxy. While each code serves a different purpose, in [this page](connectivity_example.md) I break down one of the codes to explain the core components of this kind of BASH programming.
