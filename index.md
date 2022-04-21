@@ -1,6 +1,5 @@
 # Nicolas Celli - seismologist
 <img src="./seismogram_bnw.png" alt="seis" width="800"/>
-[**about me**](about.md)
 
-[**codes**](codes.md)
+[<ins>**about me**</ins>](about.md)    [<ins>**codes**</ins>](codes.md)
 
