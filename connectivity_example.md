@@ -4,7 +4,7 @@ permalink: https://nlscelli.github.io/codes/connectivity_example
 ---
 
 # Writing a code for computer connectivity
-Here I am going to show what are the main components when writing a script for connectivity. The full script can be seen [on my github "Utilities" page](https://github.com/nlscelli/Utilities/blob/main/jptremote.sh).
+Here I am going to show what are the main components when writing a script for connectivity. As an example, I am going to use the `jptremote.sh` code I wrote. The full script can be downloaded [on my github "Utilities" page](https://github.com/nlscelli/Utilities/blob/main/jptremote.sh).
 
 The main goal of this code is to operate on your laptop/workstation a jupyter notebook/jupyter-lab running on a remote computer/server. This is useful if you have data or computational resources that are accessible only remotely.
 
@@ -100,4 +100,9 @@ printf "\n Access notebook by navigating in your browser to:\n  http://localhost
 \ssh -l ${USER} -L ${port}:"${d_server}":${port} -N ${t_server} || echo "Connection aborted"
 
 #- Done!
+```
+
+And that's it! Once you add the folder with this script to your `$PATH`, you can call your remote jupyter by simply typing:
+```bash
+jptremote.sh -u my_username -s my.destination.server -t my.proxy.server -p my_port -e my_conda
 ```
