@@ -1,6 +1,6 @@
 ---
 title: Remote access
-permalink: https://nlscelli.github.io/codes/bash_course/4-accessing_computers
+permalink: https://nlscelli.github.io/codes/4-accessing_computers
 ---
 # Accessing computers through the terminal
 In UNIX, we can access separate computers through the terminal. This allows us to e.g. perform large-scale computations on dedicated servers and then move the results to our laptop to insert the results into the papers we are writing.
