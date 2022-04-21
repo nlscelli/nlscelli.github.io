@@ -5,7 +5,7 @@ permalink: https://nlscelli.github.io/about
 ---
 
 ### about me: Nicolas Luca Celli 
-<img style="float: right;" src="IMG_0910.jpeg" alt="picme" width="200"/>
+<img style="float: right;" src="./IMG_0910.jpeg" alt="picme" width="200"/>
 
 #### Academic interests
 I am a seismologist, specialised in imaging the earth's interior using seismic data. During my PhD I focussed on imaging the earth's mantle on a global and continental scale using Big Data and waveform tomography. More recently, I got interested in by using Discrete Particle modelling to simulate the effects of material nonlinearity on seismic waves. 
