@@ -8,6 +8,7 @@ Here I am going to show what are the main components when writing a script for c
 
 The main goal of this code is to operate on your laptop/workstation a jupyter notebook/jupyter-lab running on a remote computer/server. This is useful if you have data or computational resources that are accessible only remotely.
 
+## jptremote.sh
 At first, we begin by writing which interpreter we are using and we use the `trap` command to kill all subprocesses when terminating the script. This is important to make sure we close all connections and remote processes when we finish.
 ```bash
 #!/usr/bin/env bash
