@@ -1,6 +1,6 @@
 ---
 title: Bash setup
-permalink: https://nlscelli.github.io/codes/bash_course/3-bash_setup
+permalink: https://nlscelli.github.io/codes/3-bash_setup
 ---
 
 # Defining your own shell setup
