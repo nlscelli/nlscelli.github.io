@@ -171,7 +171,6 @@ $my_teminal$: ls -l testfile.txt
 ```
 With the important line being `-rw-r--r--`, which means(taken from https://linuxcommand.org/lc3_lts0090.php):
 
-<img src="./Permissions_explanation.png" alt="explanation" width="400"/>
 ![permissions](Permissions_explanation.png)
 
 \
