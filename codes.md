@@ -11,7 +11,7 @@ A repository of (hopefully) useful codes and programming lectures that I develop
 A beginner's bash course for researchers that I gave at DIAS. Targeted to teach how to understand and harness the power of interconnected computer infrastructure.
 
 1. [**BASH basics**](1-bash_basics.md)
-2. in progress...
+2. [**BASH intermediate**](2-bash_parsing.md)
 3. [**BASH setup**](3-bash_setup.md)
 4. [**Connectivity and remote access**](4-accessing_computers.md)
 
