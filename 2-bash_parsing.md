@@ -1,5 +1,10 @@
+---
+title: Bash intermediate
+permalink: https://nlscelli.github.io/codes/2-bash_intermediate
+---
+
 # Intermediate bash: manipulating files and outputs
-In the previous chapter, we got an overview on files, directories, programs, how to run them manually or in loops and how to redirect their output. In this section we will go more "hands on" and see how we can further manipulate files.
+In the previous chapter of this course, we got an overview on files, directories, programs and how to run them manually or in loops. In this section we will learn how to redirect the outputs of a program into the input of another one and go more "hands on" and see how we can further manipulate files.
 
 ## Input, output and concatenating commands
 In shell, most programs need an input and produce an output. These can be either printed to screen (standard in/out aka `stdin`, `stdout`) or redirected to a file.
