@@ -152,6 +152,8 @@ With `&&` in `awk` meaning the "and" operator between two conditions.
 $my_terminal$: awk '{if($6<0) print $4,$6+360; else print $4,$6}' IGUANA_Cat_V1.eventlist
 ```
 
+You can plot any file with 3 columns by running [this notebook](Plot_catalog_BASH_course.md)
+
 ### Which method should I use?
 In general, `awk` has a lot of advantages. The bash loop example for instance will not be able to replicate the `awk` results because `if` statements in bash do not support floating point numbers, only integers and strings.
 
