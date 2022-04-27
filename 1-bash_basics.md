@@ -194,67 +194,6 @@ $my_teminal$: ./myprogram.sh
 ```
 In the last command, you will notice we had to run our program preceding it with a `./`. This is because we need to tell exactly the system where the program is located. However, we run programs like `pwd`, `chmod`, `gedit`, `ls` without the full directory path to their code, right? The way to do this is to set up your own shell, and it is the topic of a later chapter of this course.
 
-## Input, output and concatenating commands
-In shell, most programs need an input and produce an output. These can be either printed to screen (standard in/out aka `stdin`, `stdout`) or redirected to a file.
-
-Here we can for instance list the content of a directory with some files in it and write it to a new file using the operator `>`, then print to the screen (`stdout`) the content of the new file using `cat`:
-```bash
-$my_teminal$: ls my_directory > my_dirlist.txt
-$my_teminal$: cat my_dirlist.txt
-file1.txt
-file2.txt
-file3.txt
-```
-
-Similarly, we can take the output of a command and redirect the output as input for another command using the operator `|`, in this case `wc` (word count):
-```bash
-$my_teminal$: ls my_directory | wc
-      3       3      30
-```
-Which lists the numer of lines, words and bytes of the list of directories.
-
-Here another, more complex example:
-```bash
-$my_teminal$: echo "1 2 3" | awk '{print "sum of first two is:", $1+$2}'
-
-sum of first two is: 3
-```
-
-What we did here is just print the numbers "1 2 3" as a text string and then redirect these as input for the program `awk`, that we used to parse the result, sum only the first two elements of the string and print the result with some text explanation.
-
-If we wanted, we could append another `|` at the end and further manipulate the result of our `awk` command.
-
-Output redirection becomes particularly useful when manipulating files. As we have shown, programs like `awk` can perform math, so they can be very useful to perform basic operations (or complex actually!) directly in bash:
-
-At first, let's create a file `text.txt` with some numbers in two columns:
-```bash
-1 1
-3 1
-5 1
-7 1
-2 1
-4 1
-6 1
-```
-
-Now let's sort it and write the sum of the first and second column into a new file `results.txt`:
-```bash
-$my_teminal$: sort text.txt | awk '{print $1+$2}' > results.txt
-```
-
-We can now view the results in a lot of ways, but a quick way to do it is to to use the `cat` command we encountered before. `cat` will print the content of one or more files to the terminal:
-
-```bash
-$my_teminal$: cat results.txt
-2
-3
-4
-5
-6
-7
-8
-```
-
 
 ## Loops and conditions
 Two of the main things that you'll see in programs are loops and conditions statements. These are statements that will repeat a command a number of times (loops) or execute it only if a condition is satisfied (conditional statements).
