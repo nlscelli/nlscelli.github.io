@@ -6,7 +6,14 @@ permalink: https://nlscelli.github.io/codes
 # Codes
 A repository of (hopefully) useful codes and programming lectures that I developed organically during my academic career.
 
-
+> **NOTE:** all codes provided have been written on mac OSX and tested on mac OSX and Ubuntu. 
+>
+> Microsoft users may encounter "ghost characters" problems due to the different encoding in the form of weird character appearing in the text as well as problems with the shebang at the beginning of the code.
+> 
+> To check whether you have encoding issues, you can display the code with `cat -v filename.sh`; you should see weird characters appearing at, e.g. line ends. To fix the issue, you can remove all these characters by running `sed -e "s/\r//g" filename.sh > newfile` and `mv newfile filename.sh`.
+> 
+> To fix the shebang issue, using `#!/bin/bash` works in my experience. If in doubt, you can find the path to your bash by typing `echo $0`.
+> 
 ## BASH course for researchers
 A beginner's bash course for researchers that I gave at DIAS. Targeted to teach how to understand and harness the power of interconnected computer infrastructure.
 
