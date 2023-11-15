@@ -1,11 +1,16 @@
 
 # Nicolas Celli - seismologist
-<img src="./IMG_0910.jpeg" alt="seis" width="400"/>
 
+
+### Pages:
 
 [<ins>**codes**</ins>](codes.md)
+
 [<ins>**tomography**</ins>](tomography.md)
 
+
+
+<img style="float:right" src="./IMG_0910.jpeg" alt="seis" width="200">
 
 ### about me: Nicolas Luca Celli 
 
