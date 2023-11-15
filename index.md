@@ -1,7 +1,3 @@
----
-title: home
-permalink: https://nlscelli.github.io/home
----
 
 # Nicolas Celli - seismologist
 <img src="./IMG_0910.jpeg" alt="seis" width="400"/>
