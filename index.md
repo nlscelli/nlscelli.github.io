@@ -1,3 +1,8 @@
+---
+title: home
+permalink: https://nlscelli.github.io/home
+---
+
 # Nicolas Celli - seismologist
 <img src="./seismogram_bnw.png" alt="seis" width="800"/>
 
