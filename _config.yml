@@ -1,9 +1,5 @@
 theme: jekyll-theme-minimal
 title: nls-programming
 logo: /IMG_0910.jpeg
-description: Github Website with utilities, codes and more developed by Nicolas Celli. Work in progress. 
-
-[<ins>**home**</ins>](index.md)
-[<ins>**codes**</ins>](codes.md)
-[<ins>**tomography**</ins>](tomography.md)
+description: Github Website with utilities, codes and more developed by Nicolas Celli. Work in progress. \[<ins>**home**</ins>](index.md) \[<ins>**codes**</ins>](codes.md) \[<ins>**tomography**</ins>](tomography.md)
 
