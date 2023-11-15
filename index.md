@@ -4,9 +4,11 @@ permalink: https://nlscelli.github.io/home
 ---
 
 # Nicolas Celli - seismologist
-<img src="./seismogram_bnw.png" alt="seis" width="800"/>
+<img src="./IMG_0910.jpeg" alt="seis" width="400"/>
 
-[<ins>**codes**</ins>](codes.md)    [<ins>**tomography**</ins>](tomography.md)
+
+[<ins>**codes**</ins>](codes.md)
+[<ins>**tomography**</ins>](tomography.md)
 
 
 ### about me: Nicolas Luca Celli 
