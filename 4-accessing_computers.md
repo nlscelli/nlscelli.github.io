@@ -15,21 +15,27 @@ $my_terminal$: ssh user@mymachine.localnetwork
 This will ask you for your password to enter `mymachine.localnetwork` as `user` ; after entering it, the terminal you are working on will effectively be the terminal of the machine you connected to.
 
 ### Skip writing passwords - SSH keys
-Everybody hates to type in passwords and so should you. Fortunately, we can skip entering the passwords for accessing the computers and servers using `ssh keys`. These are configuration files that save and authorise your ssh ID upon login.
+Everybody hates to type in passwords and so should you. When accessing a computer, like for most laptops, SSH needs you to type the password of the computer you are connecting to. Fortunately, we can skip entering the passwords for accessing computers and servers using `ssh keys`. These are configuration files that save and authorise your ssh ID upon login.
 
-The ssh keys are stored in your home, in a hidden folder `.ssh` and are named `id_rsa` and `id_rsa.pub`. if you don't have them, you need to generate your ssh keys first.
+The ssh keys are stored in your home folder, in a hidden folder `.ssh` and are named `id_rsa` and `id_rsa.pub`. if you don't have them, you need to generate your ssh keys first.
 
 On your machine (laptop or office workstation):
 
 ```bash
 $my_terminal$: ssh-keygen
 ```
-and then let's copy them to the server you want to connect to, e.g. `proxyserver`:
+Then, you have to copy them to the server you want to connect to, e.g. `proxyserver`. By doing this you are telling the remote server that it can trust the passwordless access from your local machine. You can do this 2 ways:
+
+#### automatically
+from your local machine, simply type:
 ```bash
 $my_terminal$: ssh-copy-id user@proxyserver.localnetwork
 ```
 
-In other cases, this will remember your password to connect to `proxyserver`, but in computer networks, since all servers are connected, this will mean the password will be remembered for all machines in the network.
+#### manually
+you have to append the text from your PUBLIC key `id_rsa.pub` of your local machine to the file `.ssh/authorized_keys` on the remote machine you want to connect to (`proxyserver` in our previous examples).
+
+Either way, this will allow your local machine to passwordless access to the remote server.
 
 ### Connecting to a machine passing trough another one: ssh tunnels
 In some cases, you have no direct access to a machine and the only way to connect to it is through another, third machine. This is typically an issue when connecting to intranet networks protected by a proxy.
