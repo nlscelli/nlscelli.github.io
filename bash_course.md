@@ -10,3 +10,4 @@ A beginner's bash course for researchers. Targeted to harness the power of inter
 2. [**BASH intermediate: I/O and file parsing**](2-bash_parsing.md)
 3. [**BASH setup**](3-bash_setup.md)
 4. [**Connectivity and remote access (SSH)**](4-accessing_computers.md)
+5. [**BASH advanced**](5-bash_advanced.md)
