@@ -22,6 +22,7 @@ A beginner's bash course for researchers that I gave at DIAS. Targeted to teach 
 2. [**BASH intermediate**](2-bash_parsing.md)
 3. [**BASH setup**](3-bash_setup.md)
 4. [**Connectivity and remote access**](4-accessing_computers.md)
+5. [**BASH advanced**](5-bash_advanced.md)
 
 
 ## Connectivity codes
